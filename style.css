@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 3s forwards, gradientAnimation 10s ease infinite; /* Combine animations */
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #fafafa;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
+
+.skill-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-set div {
+    flex: 1 1 calc(33% - 20px);
+    margin: 5px;
+    background: #f1c40f;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Final opacity */
+    }
+}
+
+@keyframes gradientAnimation {
+    0% { background: linear-gradient(270deg, #f0f4f8, #e2e8f0); } /* Light grayish-blue */
+    50% { background: linear-gradient(270deg, #ffffff, #e1e2e6); } /* White to very light gray */
+    100% { background: linear-gradient(270deg, #f0f4f8, #e2e8f0); }
+}
+
+.censored {
+    color: rgb(255, 255, 255);
+    filter: blur(3px); 
+    display: inline-block; 
+}
