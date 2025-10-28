@@ -1,4 +1,4 @@
-#Resume Webpage
+## Resume Webpage
 
 ## Features
 - **Responsive Design**: Adaptable to various screen sizes for a better user experience.
