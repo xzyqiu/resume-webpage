@@ -1,7 +1,4 @@
-# Project Title: Resume Webpage
-
-## Description
-A brief description of your resume webpage, highlighting its purpose and significance. This should explain what the project is about and why it exists.
+#Resume Webpage
 
 ## Features
 - **Responsive Design**: Adaptable to various screen sizes for a better user experience.
