@@ -4,7 +4,7 @@
 - **Responsive Design**: Adaptable to various screen sizes for a better user experience.
 - **Interactive Elements**: Includes hover effects on buttons and animated gradients to engage users.
 - **Project Highlights**: Displays projects with descriptions and links for direct access.
-- 
+
 ## Technologies Used
 - **HTML5**: For structuring the webpage.
 - **CSS3**: For styling and animations.
