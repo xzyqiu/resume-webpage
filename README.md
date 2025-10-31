@@ -1,5 +1,8 @@
 ## Resume Webpage
 
+## Site Link
+https://xzyqiu.github.io/resume-webpage/
+
 ## Features
 - **Responsive Design**: Adaptable to various screen sizes for a better user experience.
 - **Interactive Elements**: Includes hover effects on buttons and animated gradients to engage users.
@@ -20,3 +23,4 @@ Instructions on how to set up the project locally. Include dependencies and any 
 git clone https://github.com/xzyqiu/resume-webpage.git
 cd resume-webpage
 open index.html
+
